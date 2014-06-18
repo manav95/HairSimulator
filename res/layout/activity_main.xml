@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+      xmlns:custom="http://schemas.android.com/apk/res/com.example.hairsimulator"
+    android:id = "@+id/fragmentContainer"
+    android:layout_width="2000dp"
+    android:layout_height="2000dp"
+    android:background="@drawable/main_background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scaleType="centerCrop" >
+
+
+    <Button
+        android:id="@+id/Start"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:minWidth="120dp"
+        android:onClick="startUp"
+        android:text="@string/Start"
+        android:textStyle="bold" />
+ 
+     <com.example.hairsimulator.CustView
+         android:id="@+id/imageView1"
+         android:layout_width="200dp"
+         android:layout_height="342dp"
+         android:layout_marginBottom="6dp"
+         android:layout_marginLeft="1dp"
+         android:layout_marginRight="4dp"
+         android:layout_marginTop="3dp"
+         android:paddingBottom="1dp"
+         android:paddingLeft="1dp"
+         android:paddingRight="2dp"
+         android:paddingTop="1dp"  />
+        
+</FrameLayout>
