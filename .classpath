@@ -6,5 +6,9 @@
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry kind="lib" path="/Users/manavdutta/Downloads/commons-math3-3.3/commons-math3-3.3.jar"/>
+	<classpathentry kind="lib" path="libs/armeabi/ffmpeg.jar"/>
+	<classpathentry kind="lib" path="libs/armeabi/javacpp.jar"/>
+	<classpathentry kind="lib" path="libs/armeabi/javacv.jar"/>
+	<classpathentry kind="lib" path="libs/armeabi/opencv.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
