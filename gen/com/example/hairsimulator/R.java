@@ -26,7 +26,7 @@ containing a value of this type.
 <tr><td><code>front</code></td><td>98</td><td></td></tr>
 </table>
          */
-        public static int camera_id=0x7f010001;
+        public static final int camera_id=0x7f010001;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -34,7 +34,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int show_fps=0x7f010000;
+        public static final int show_fps=0x7f010000;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -43,42 +43,42 @@ containing a value of this type.
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static int activity_horizontal_margin=0x7f050000;
-        public static int activity_vertical_margin=0x7f050001;
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static int back=0x7f020000;
-        public static int bb=0x7f020001;
-        public static int front=0x7f020002;
-        public static int hair=0x7f020003;
-        public static int ic_launcher=0x7f020004;
-        public static int main_background=0x7f020005;
-        public static int side=0x7f020006;
-        public static int side1=0x7f020007;
+        public static final int back=0x7f020000;
+        public static final int bb=0x7f020001;
+        public static final int front=0x7f020002;
+        public static final int hair=0x7f020003;
+        public static final int ic_launcher=0x7f020004;
+        public static final int main_background=0x7f020005;
+        public static final int side=0x7f020006;
+        public static final int side1=0x7f020007;
     }
     public static final class id {
-        public static int Start=0x7f040004;
-        public static int action_settings=0x7f040006;
-        public static int any=0x7f040000;
-        public static int back=0x7f040001;
-        public static int fragmentContainer=0x7f040003;
-        public static int front=0x7f040002;
-        public static int imageView1=0x7f040005;
+        public static final int Start=0x7f040004;
+        public static final int action_settings=0x7f040006;
+        public static final int any=0x7f040000;
+        public static final int back=0x7f040001;
+        public static final int fragmentContainer=0x7f040003;
+        public static final int front=0x7f040002;
+        public static final int imageView1=0x7f040005;
     }
     public static final class layout {
-        public static int activity_main=0x7f030000;
-        public static int image_container=0x7f030001;
+        public static final int activity_main=0x7f030000;
+        public static final int image_container=0x7f030001;
     }
     public static final class menu {
-        public static int main=0x7f080000;
+        public static final int main=0x7f080000;
     }
     public static final class string {
-        public static int Start=0x7f060005;
-        public static int action_settings=0x7f060001;
-        public static int app_name=0x7f060000;
-        public static int title_section1=0x7f060002;
-        public static int title_section2=0x7f060003;
-        public static int title_section3=0x7f060004;
+        public static final int Start=0x7f060005;
+        public static final int action_settings=0x7f060001;
+        public static final int app_name=0x7f060000;
+        public static final int title_section1=0x7f060002;
+        public static final int title_section2=0x7f060003;
+        public static final int title_section3=0x7f060004;
     }
     public static final class style {
         /** 
@@ -102,11 +102,11 @@ containing a value of this type.
     
  API 14 theme customizations can go here. 
          */
-        public static int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static int AppTheme=0x7f070001;
+        public static final int AppTheme=0x7f070001;
     }
     public static final class styleable {
         /** Attributes that can be used with a CameraBridgeViewBase.

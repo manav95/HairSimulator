@@ -48,9 +48,9 @@ public class HairDrawer {
           for (int i = (int) p1.x; i < (int) p2.x; i++) {
              for (int j = (int) p1.y; j < (int) p2.y; j++) {
                  double [] data = mat.get(i,j);
-                 data[0] = 255;
-                 data[1] = 255;
-                 data[2] = 255;
+                 data[0] = 0;
+                 data[1] = 0;
+                 data[2] = 0;
                  mat.put(i, j, data);
              }
           }
